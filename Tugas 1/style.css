@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+}
+
+.wrap {
+    width: 100%;
+    background-color: white;
+}
+
+.badan {
+    height: 100%;
+}
+
+.wrap #head {
+    background-color: #09182b;
+    padding: 50px;
+}
+
+.wrap #head hr {
+    position: absolute;
+    height: 15px;
+    border: none;
+    color: #333;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin-top: -15px;
+    margin-left: -50px;
+}
+
+.wrap h1 {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 150;
+    margin-left: 290px;
+    margin-top: 10px;
+    padding-bottom: -30px;
+}
+
+.wrap h2 {
+    margin-left: 150px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 150;
+    margin-top: -70px;
+}
+
+.wrap h3 {
+    position: relative;
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 13px;
+    height: 20px;
+    margin-left: 70px;
+    margin-top: -15px;
+    text-align: center;
+    color: white;
+    background-color: #09182b;
+    width: 10%;
+    z-index: 1;
+}
+
+.wrap hr {
+    width: 80%;
+    margin-left: 150px;
+}
+
+.wrap img {
+    width: 100px;
+    border: 10px solid white;
+    border-radius: 49%;
+    margin-top: -90px;
+    margin-left: 120px;
+}
+
+.wrap .badan .sidebar {
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.wrap .badan .content {
+    float: left;
+    width: 75%;
+    height: 100%;
+    margin-top: -70px;
+}
+
+.wrap .badan .content h4 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 30px;
+    font-weight: 150;
+}
+
+.wrap .badan .content hr {
+    margin-left: 2px;
+}
+
+.wrap .badan .sidebar h4 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 30px;
+    font-weight: 150;
+    margin-left: 165px;
+}
+
+.wrap .badan .sidebar hr {
+    border: 1px dashed #000000;
+    margin-left: 31px;
+    margin-bottom: 10px;
+    width: 75%;
+}
+
+.wrap .badan .sidebar .info {
+    font-family: sans-serif;
+    margin-left: 239px;
+}
+
+.wrap .badan .sidebar .info1 {
+    font-family: sans-serif;
+    margin-left: 190px;
+}
+
+.wrap .badan .sidebar .info3 {
+    font-family: sans-serif;
+    margin-left: 210px;
+}
+
+table {
+    width: 70%;
+    background-color: gainsboro;
+    font-family: sans-serif;
+}
+
+.footer {
+    background-color: white;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
